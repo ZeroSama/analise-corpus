@@ -2,14 +2,15 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Flat UI Free 101 Template</title>
+    <title>A_C</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Bootstrap 3.2 -->
-    <link href="../dist/css/vendor/bootstrap.min.css" rel="stylesheet">
+    <link href="css/vendor/bootstrap.min.css" rel="stylesheet">
+    <link href="css/footer.css" media="all" rel="stylesheet" type="text/css" />
 
     <!-- Flat UI -->
-    <link href="../dist/css/flat-ui.min.css" rel="stylesheet">
+    <link href="css/flat-ui.min.css" rel="stylesheet">
 
     <link rel="shortcut icon" href="img/favicon.ico">
 
@@ -20,27 +21,148 @@
     <![endif]-->
   </head>
   <body>
-    <div class="container">
-        <h1>Hello, world!</h1>
-        <span class="label label-default">Default</span>
-<span class="label label-primary">Primary</span>
-<span class="label label-success">Success</span>
-<span class="label label-info">Info</span>
-<span class="label label-warning">Warning</span>
-<span class="label label-danger">Danger</span>
-<div class="input-group input-group-lg">
-  <span class="input-group-addon" id="sizing-addon1">@</span>
-  <input type="text" class="form-control" placeholder="Username" aria-describedby="sizing-addon1">
-</div>
+    <div class="container-fluid">
+
+      <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">
+        A_C
+      </a>
     </div>
-    <!-- /.container -->
+  </div>
+</nav>
+
+<div class="row">
+<div class="col-sm-2 text-right">Idioma</div>
+<div class="col-sm-3">
+<select class="form-control select select-primary mbl" data-toggle="select">
+            
+              <option value="0">Selecione</option>
+              <option value="1">Portugues</option>
+          
+          </select>
+
+</div>
+</div>
+
+
+    <div class="row">
+        <div class="col-sm-2 text-right">
+Palavras-Chave
+        </div>
+        <div class="col-sm-3">
+<div class="tagsinput-primary">
+            <input name="tagsinput-02" class="tagsinput" data-role="tagsinput" value="" />
+          </div>
+        </div>
+    </div>
+        <div class="row">
+        <div class="col-sm-2 text-right">
+Area
+        </div>
+        <div class="col-sm-3">
+<input name="tagsinput-01" class="tagsinput" data-role="tagsinput" value="" />
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-2 text-right">
+Arquivo
+        </div>
+        <div class="col-sm-3">
+          <div class="form-group">
+        <input type="file" class="filestyle" data-iconName="" data-buttonText="Escolher" data-buttonName="btn-default">
+      </div>
+    </div>
+
+  </div>
+
+    <div class="row">
+        <div class="col-sm-2 text-right">
+    URL
+        </div>
+        <div class="col-sm-3">
+          <input type="text" value="" placeholder="" class="form-control" />
+    </div>
+</div>
+
+    <div class="row">
+        <div class="col-sm-2 text-right">
+  Classe Gramatical Excluida
+        </div>
+        <div class="col-sm-3">
+  <label class="checkbox" for="checkbox3">
+                  <input type="checkbox" value="" id="checkbox3" data-toggle="checkbox">
+                  Checkbox
+        </label>
+  <label class="checkbox" for="checkbox2">
+                  <input type="checkbox" value="" id="checkbox2" data-toggle="checkbox">
+                  Checkbox
+        </label>
+    </div>
+</div>
+
+    <div class="row">
+        <div class="col-sm-2 text-right">
+    Quantidade Mínima de Caracteres
+        </div>
+        <div class="col-sm-3">
+          <input type="text" value="" placeholder="" class="form-control" />
+    </div>
+</div>
+
+    <div class="row">
+        <div class="col-sm-2 text-right">
+  Frequencia
+        </div>
+        <div class="col-sm-3">
+          <input type="text" value="" placeholder="" class="form-control" />
+    </div>
+</div>
+
+
+    <div class="row">
+        <div class="col-sm-2 text-right">
+  Classe Gramatical Excluida
+        </div>
+        <div class="col-sm-3">
+  <label class="checkbox" for="checkbox">
+                  <input type="checkbox" value="" id="checkbox" data-toggle="checkbox">
+                  Checkbox
+        </label>
+  <label class="checkbox" for="checkbox1">
+                  <input type="checkbox" value="" id="checkbox1" data-toggle="checkbox">
+                  Checkbox
+        </label>
+    </div>
+</div>
+<div class="row">
+  <div class="col-sm-2 text-right"></div>
+  <div class="col-sm-3">
+<button class="btn btn-embossed btn-primary">
+  Gerar Relatório
+</button>
+</div>
+</div>
+<!-- FIM DO CONTAINER -->
+</div>
+
+<div id="footer">
+  <div class="container">
+    <p class="text-muted">Rodapé | 2015</p>
+  </div>
+</div>
 
 
     <!-- jQuery (necessary for Flat UI's JavaScript plugins) -->
-    <script src="../dist/js/vendor/jquery.min.js"></script>
+    <script src="js/vendor/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="../dist/js/vendor/video.js"></script>
-    <script src="../dist/js/flat-ui.min.js"></script>
-
+    <script src="js/vendor/video.js"></script>
+    <script src="js/flat-ui.min.js"></script>
+   
+    <script src="js/application.js"></script>
+    
+<script type="text/javascript" src="js/bootstrap-filestyle.min.js"> </script>
   </body>
 </html>
